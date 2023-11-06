@@ -1,0 +1,170 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #202121;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del encabezado */
+header {
+    background-color:#202121;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos de las secciones */
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #0073e6;
+    font-size: 28px;
+}
+
+/* Estilos de la información personal */
+.info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.info img {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de las habilidades */
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.skill i {
+    font-size: 20px;
+    color: #0073e6;
+}
+
+/* Estilos de las secciones de educación y experiencia */
+.education h3,
+.experience h3 {
+    color: #0073e6;
+    font-size: 24px;
+}
+
+/* Estilos para el perfil profesional */
+.profile {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile h2 {
+    color: #0073e6;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.profile p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    background-color: #202121;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0052a5;
+}
